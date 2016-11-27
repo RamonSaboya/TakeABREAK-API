@@ -21,4 +21,5 @@ public class Pair<F, S> implements Serializable {
 	public S getSecond() {
 		return second;
 	}
+
 }
