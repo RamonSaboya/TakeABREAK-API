@@ -40,11 +40,11 @@ public class Group implements Serializable {
 	}
 
 	public boolean isMember(InetSocketAddress address) {
-		return founder == address || members.containsKey(address);
+		return founder.equals(address) || members.containsKey(address);
 	}
 
 	public boolean isAdmin(InetSocketAddress address) {
-		return founder == address || (members.containsKey(address) && members.get(address));
+		return founder.equals(address) || (members.containsKey(address) && members.get(address));
 	}
 
 	public int getMembersAmount() {
