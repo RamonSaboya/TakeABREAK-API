@@ -12,7 +12,8 @@ public enum ServerAction {
 	SEND_USER_CONNECTED(2),
 	SEND_GROUP(3),
 	GROUP_MESSAGE(4),
-	GROUP_ADD_MEMBER(5);
+	GROUP_ADD_MEMBER(5),
+	SEND_FILE_TO_SERVER(6);
 
 	private int ID; // ID associado a ação
 
