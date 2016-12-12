@@ -7,12 +7,12 @@ package br.ufpe.cin.if678.communication;
  */
 public enum ServerAction {
 
-
 	VERIFY_USERNAME,
 	USERS_LIST_UPDATE,
 	USER_CONNECTED,
 	SEND_GROUP,
 	GROUP_ADD_MEMBER,
-	GROUP_MESSAGE;
+	GROUP_MESSAGE,
+	START_UPLOAD;
 
 }

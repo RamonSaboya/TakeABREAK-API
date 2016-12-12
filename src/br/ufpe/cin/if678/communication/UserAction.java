@@ -12,6 +12,7 @@ public enum UserAction {
 	GROUP_CREATE,
 	GROUP_ADD_MEMBER,
 	SEND_MESSAGE,
+	SEND_FILE,
 	RECONNECT;
 
 }
